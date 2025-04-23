@@ -5,54 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Knowledge for all Library</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="favicon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="favicon" href="/book.png" type="image/x-icon" />
   </head>
   <body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <img src="images/logo.png" alt="Library Logo" />
+                <img src="/digital-library.png" alt="Library Logo" height="10%" />
             <ul>
                 <li>Home</li>
-                <li>Browse Books</li>
+                <li>Browse Popular Books</li>
                 <li>About us</li>
             </ul>
         </nav>
       <h1>popular this month</h1>
     </header>
 
-    <main>
-      <table class="table-book">
-        <tr>
-          <th>Book Cover</th>
-          <th>Book Name</th>
-          <th>Book Author</th>
-          <th>Book Description</th>
-          <th><button class="button-book-details">read more</button></th>
-        </tr>
-        <tr>
-          <td><img src="images/book1.jpg" alt="Book 1" /></td>
-          <td>The Great Gatsby</td>
-          <td>F. Scott Fitzgerald</td>
-          <td>A novel set in the Roaring Twenties, exploring themes of wealth and love.</td>
-          <td><button class="button-book-details">read more</button></td>
-        </tr>
-        <tr>
-          <td><img src="images/book2.jpg" alt="Book 2" /></td>
-          <td>To Kill a Mockingbird</td>
-          <td>Harper Lee</td>
-          <td>A novel about the serious issues</td>
-            <td><button class="button-book-details">read more</button></td>
-        </tr>
-        <tr>
-          <td><img src="images/book3.jpg" alt="Book 3" /></td>
-          <td>1984</td>
-          <td>George Orwell</td>
-          <td>A dystopian novel set in a totalitarian society under constant surveillance.</td>
-          <td><button class="button-book-details">read more</button></td>
-        </tr>   
+    <main class="main-content">
+        <h1>Popular Books</h1>
+      <div class ="card">
+        <img src="https://m.media-amazon.com/images/I/61dRoDRubtL._SL1500_.jpg" alt="Book 1" class="book-cover" />
+        <h2>The Great Gatsby</h2>
+        <p>Author: F. Scott Fitzgerald</p>
+        <p>A novel set in the Roaring Twenties, exploring themes of wealth and love.</p>   
+        <button class="details-button">Details</button>     
+      </div>
+      <div class ="card">
+        <img src="https://m.media-amazon.com/images/I/71rpa1-kyvL._SL1500_.jpg" alt="Book 2" class="book-cover" />
+        <h2>1984</h2>
+        <p>Author: George Orwell</p>
+        <p>A dystopian novel about totalitarianism and surveillance.</p>
+        <button class="details-button">Details</button>
+      </div>
+        <div class ="card">
+            <img src="https://m.media-amazon.com/images/I/91eopoUCjLL._SL1500_.jpg" alt="Book 3" class="book-cover" />
+            <h2>Harry Potter</h2>
+            <p>Author: J.K. Rowling</p>
+            <p>The first book in the Harry Potter series, introducing a young wizard.</p>
+            <button class="details-button">Details</button>
+        </div>
+        <div class ="card">
+            <img src="https://m.media-amazon.com/images/I/81XH+m22mjL._SL1500_.jpg" alt="Book 4" class="book-cover" />
+            <h2>Lord of the rings</h2>
+            <p>Author: J.R.R. Tolkien</p>
+            <p>A fantasy novel about the quest to destroy a powerful ring.</p>
+            <button class="details-button">Details</button>
+        </div>
 
-      </table>
+
+      
     </main>
     <footer>
       <p>© 2025 Knowledge for all Library</p>
