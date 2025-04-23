@@ -1,6 +1,117 @@
-body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
+.nav-bar{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.book-details-page{
+    background-color: #f2f8f9;
     padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #0b1819;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f8f9;
+    align-items: center;
+    color: #0b1819;
+    margin: 0;
+    padding: 0
+}
+.logo{
+    width: 8%;
+    height: 8%;
+    display: block;
+      
+
+}
+
+.card{
+    background-color: #f8f9fa;
+    border: 1px solid #264144;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    container: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.card h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #264144;
+}
+.book-cover{
+    height: 50% ;
+    width: 50% ;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .book-cover{
+    width:20%;
+    height: 20%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.button-link{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #264144;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.button-link:hover{
+    background-color: #9b7fba;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #264144;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ac99d2;
+}
+.button-link-nav{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #264144;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 1em;
+    text-align: center;
+    align-items: center;
+}
+.button-link-nav:hover{
+    background-color: #1f3536;
 }
